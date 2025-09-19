@@ -1,0 +1,53 @@
+:root{
+  --ink: black;                /* text color */
+  --paper: rgba(255, 204, 153, 0.4);              /* page background */
+  --brand-gold: rgba(153, 51, 102, 1);         /* accent */
+  --page-width: 60ch;    /* ~60 characters per line for readability */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+
+  /* Rounding */
+  --radius: 12px;
+  .tagline{ opacity: .9; font-style: italic; }
+}
+body{ 
+  color: var(--ink); background: var(--paper); }
+/* Headings */
+header{
+  position: sticky; top: 0; text-align: center;
+  background: var(--brand-gold);
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+nav{
+  display: flex;
+  gap: var(--space-2);
+  justify-content: center;
+  padding: calc(var(--space-2) * 0.75) 0;}
+  nav a {padding: 0.25rem 0.5rem; border-radius: 6px; color: rgba(255, 204, 153, 1);text-decoration: none; }
+  nav a:hover {color: var(--paper);background: rgba(190, 51, 109, 0.4)}
+
+
+h1 {
+  font-size: 2.5rem;
+  color: rgba(255, 204, 153, 1);
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: var(--brand-gold)
+}
+
+p {
+  color: var(--ink);
+  font-size: ;
+}
+
+/* Footer */
+footer {
+  text-align: xxxx;
+  margin-top: xxxx;
+  font-size: xxxx;
+  color: xxxx;
+}

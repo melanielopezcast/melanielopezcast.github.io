@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mini Site — HTML Basics</title>
+  <link rel="stylesheet" href="lopezcastano_style.css">
+</head>
+<body>
+  <a id="top"></a> <!-- back-to-top anchor -->
+  <!-- 1) HEADINGS & PARAGRAPHS -->
+  <header>
+  <h1>My Mini Site</h1>
+    <nav>
+     <a href="#About">About</a>
+     <a href="#Education">Education</a>
+     <a href="#Projects">Projects</a>
+     <a href="#Hobbies">Hobbies</a>
+     <a href="#Contact">Contact</a>
+  </nav>
+  </header>
+  <main>
+    
+  <section id="About">
+<h2>About Me</h2>
+<p><em>Hello!</em> My name is <strong>Melanie Lopez-Castano</strong>. Welcome to my website!</p>
+<p>I am from Louisville, Kentucky. My family is from Cuba, and growing up bilingual in both Spanish and English drew me towards linguistics and communication. I am a student at the University of Kentucky studying linguistics and CSD.</p>
+  <p>
+    <img src="lin301me.png" alt="This is me!">
+  </p>
+  </section>
+  
+
+<section id="Education">
+<h2>Education</h2>
+<p>Atherton High School (2018-2022)</p>
+<p>University of Kentucky, Communication Sciences and Disorders & Linguistics</p>
+</section>
+
+<section id="Projects">
+<h2>Projects</h2>
+<p>AAC (All About Communication) Lab and Rehab Makerspace (2023) - Dr. Mary Jo Cooley Hidecker</p>
+</section>
+
+<section id="Hobbies">
+<h2>Hobbies</h2>
+<p>I love....
+<ul>
+  <li> cooking </li>
+  <li> music, movies, and reading </li>
+  <li> crocheting </li>
+  <li> my corgi, Rosie! </li>
+</ul>
+</p>
+</section>
+
+<section id="Contact">
+  <h2 class="tagline">Contact</h2>
+  <p>
+    Visit <a href="https://github.com/melanielopezcast">my website.</a>. 
+  </p>
+  </section>
+</main>
+
+  <footer>
+    © 2025 Melanie Lopez-Castano · <a href="#top">Back to top</a>
+  </footer>
+
+  <!-- 6) BLOCK vs INLINE (tiny inline styles just for boxes) -->
+  <h2>Block vs Inline (visual)</h2>
+  <div style="border:2px dashed #ccc; padding:.5rem; margin:.3rem 0;">
+    <h3 style="margin:.2rem 0;">This heading is block</h3>
+    <p style="margin:.2rem 0;">This paragraph is block</p>
+    <ul style="margin:.2rem 0;">
+      <li>List is block</li>
+    </ul>
+  </div>
+  <p>
+    Inline examples: 
+    <em style="outline:1px dotted #999; padding:0 .1rem;">em</em>,
+    <strong style="outline:1px dotted #999; padding:0 .1rem;">strong</strong>,
+    <a href="#" style="outline:1px dotted #999; padding:0 .1rem;">link</a>
+    all sit within the same line of this paragraph.
+  </p>
+
+  <hr>
+
+  <p id="top"></p>
+</body>
+</html>
